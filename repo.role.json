@@ -1,6 +1,9 @@
-﻿{
-    "timestamp":  "2026-04-25T22:21:03Z",
-    "authority_level":  2,
-    "name":  "riverbraid-identity",
-    "role":  "PARKED_RESEARCH"
+{
+  "version": "1.0.0",
+  "name": "Riverbraid-Identity-Gold",
+  "status": "parked",
+  "defines_protocol": false,
+  "protocol_authority": false,
+  "required_for_core_verification": false,
+  "active_behavior_claimed": false
 }

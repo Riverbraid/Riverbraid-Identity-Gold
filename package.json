@@ -2,6 +2,7 @@
     "name":  "riverbraid-identity",
     "version":  "1.0.0",
     "scripts":  {
-                    "test":  "node -e \"console.log(\u0027riverbraid-identity: Verified\u0027)\""
+                    "test":  "node verify-parked.cjs",
+                    "verify:feature-flow":  "node verify-feature-flow.cjs"
                 }
 }
