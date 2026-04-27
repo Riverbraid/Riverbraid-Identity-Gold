@@ -1,8 +1,9 @@
 ﻿{
-    "name":  "riverbraid-identity",
-    "version":  "1.0.0",
-    "scripts":  {
-                    "test":  "node verify-parked.cjs",
-                    "verify:feature-flow":  "node verify-feature-flow.cjs"
-                }
+  "name": "@riverbraid/riverbraid-identity-gold",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "node verify-parked.cjs"
+  }
 }
