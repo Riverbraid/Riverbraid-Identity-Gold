@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env node
+#!/usr/bin/env node
 "use strict";
 const fs = require("fs");
 function fail(code) { console.error(code); process.exit(1); }
