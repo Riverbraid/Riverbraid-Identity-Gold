@@ -1,9 +1,13 @@
-﻿{
-  "name": "@riverbraid/riverbraid-identity-gold",
-  "version": "0.1.0",
+{
+  "name": "@riverbraid/identity-gold",
+  "version": "1.0.0",
   "private": true,
-  "type": "commonjs",
+  "type": "module",
+  "description": "Riverbraid Gold petal for deterministic identity stationarity verification.",
+  "main": "index.js",
   "scripts": {
-    "test": "node verify-parked.cjs"
-  }
+    "verify": "node verify.mjs",
+    "test": "node verify.mjs"
+  },
+  "license": "MIT"
 }

@@ -1,0 +1,31 @@
+{
+  "repo": "Riverbraid-Identity-Gold",
+  "ring": 1,
+  "petal": "Identity-Gold",
+  "invariant": "IDENTITY_STATIONARY",
+  "claim_boundary": "declared-conditions-only",
+  "canonical_input": {
+    "repo": "Riverbraid-Identity-Gold",
+    "petal": "Identity-Gold",
+    "ring": 1,
+    "invariant": "IDENTITY_STATIONARY"
+  },
+  "expected_result": true,
+  "steps": [
+    "receive canonical identity object",
+    "require repo to equal Riverbraid-Identity-Gold",
+    "require petal to equal Identity-Gold",
+    "require ring to equal 1",
+    "require invariant to equal IDENTITY_STATIONARY",
+    "emit deterministic verification output"
+  ],
+  "forbidden": [
+    "Date",
+    "Math.random",
+    "randomUUID",
+    "timestamps",
+    "absolute paths",
+    "environment dependent values",
+    "external lookups"
+  ]
+}
